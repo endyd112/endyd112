@@ -133,7 +133,7 @@ Digital Substation Automation Operation System is HMI(Human Machine Interface) s
 
 
 <img src="../Gallery/QTSA.png" width="600px" height="300px" style="margin-right:20px">
-<img src="https://github.com/endyd112/Gallery/GB.png" width="500px" height="300px">
+<img src="https://user-images.githubusercontent.com/26294051/208050660-8ae2321a-f15d-456c-a56d-8cfd1cd897a1.png" width="500px" height="300px">
 
 
 
