@@ -1,6 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&&color=gradient&height=100&section=header&fontSize=90)
 
-# 김두용 金 頭勇 DuYong Kim
+# 김두용 キム ドゥヨン DuYong Kim
 
 
 ### _こんにちは。_
@@ -23,9 +23,17 @@ Have a day full of JOY today.
 
 
 ---
+## **Career Summary**
 
-<br/><br/>
+<br/>
 
+- ###  *Web service expansioin of F/A System*
+- ###  *0 to 1, Knowledge and experience as a full-stack developer*
+<br/>
+
+---
+
+<br/>
 <h3>💻 Tech Stack 💻</h3>
 
 <br/>
@@ -56,6 +64,90 @@ Have a day full of JOY today.
 </div>
 
 <br/>
+
+---
+
+## **Career History**
+<br/><br/>
+
+
+_Sept. 2019 - Present_
+
+
+**Company 1**
+
+**Incheon, South Korea - SANION** <br>
+Company Description,
+total number of people: 72
+- Development/Design: 37(Including 2 PhDs, 7 M.S.D.s)
+- Commissioning: 17
+- Sales/Purchase: 18
+
+Business :
+Substation Automation,
+Distribution Automation,
+Distribution Panel
+
+
+**Development / Software**
+**Assistant Manager**
+
+<br/><br/>
+
+
+_Jun. 2015 - 2019_
+
+**Company 2**
+
+**Seoul, South Korea - WELLTAC** <br>
+
+Business :
+Factory automation infrastructure, HMI solution
+
+
+**Development / Staff**
+
+
+
+
+
+
+<br/><br/>
+
+---
+
+
+## **Project**
+<br/><br/>
+
+*project 1*
+
+## SA System <br><br>
+
+## overview,
+
+
+Digital Substation Automation Operation System is HMI(Human Machine Interface) system which provides operating information on each facility in the IEC 61850-based SA (Substation Automation) digital substation to the operator.
+
+<br/>
+
+
+<img src="./Gallery/QTSA.png" width="600px" height="300px" style="margin-right:20px">
+<img src="./Gallery/GB.png" width="500px" height="300px">
+
+
+
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
 
 
 
