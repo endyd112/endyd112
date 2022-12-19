@@ -131,11 +131,11 @@ Digital Substation Automation Operation System is **HMI**(Human Machine Interfac
 
 <br/>
 
-
-<img src="https://user-images.githubusercontent.com/26294051/208060040-d0f57bca-79b6-4474-9570-1ad0e1af6151.png" width="420px" height="250px" style="margin-right:15px;"/>
-<img src="https://user-images.githubusercontent.com/26294051/208050660-8ae2321a-f15d-456c-a56d-8cfd1cd897a1.png" width="400px" height="250px" />
-<img src="https://user-images.githubusercontent.com/26294051/208060046-83708df4-f25b-4a13-a969-bff2850456be.png" width="840px" height="520px" style="margin-top:20px">
-
+<div style="display:flex;">
+ <img src="https://user-images.githubusercontent.com/26294051/208060040-d0f57bca-79b6-4474-9570-1ad0e1af6151.png" width="420px" height="250px" />
+ <img src="https://user-images.githubusercontent.com/26294051/208050660-8ae2321a-f15d-456c-a56d-8cfd1cd897a1.png" width="415px" height="250px" />
+ <img src="https://user-images.githubusercontent.com/26294051/208060046-83708df4-f25b-4a13-a969-bff2850456be.png" width="840px" height="520px" style="margin-top:20px">
+</div>
 
 <br/><br/>
 
@@ -163,18 +163,19 @@ Web extension version of the SA System.<br>
 
 <br/>
 <br/>
+<div style="display:flex;">
+ <img src="https://user-images.githubusercontent.com/26294051/208060292-962629dd-9e77-48b2-b5bc-62d2bfa8d9ec.png" width="410px" height="250px" style="margin-right:15px">
+ <img src="https://user-images.githubusercontent.com/26294051/208060036-dbac134e-47ce-4178-b8db-c4ee6a2feb87.png" width="410px" height="250px" >
 
-<img src="./IMG/SINGLELINE.png" width="410px" height="250px" style="margin-right:15px">
-<img src="./IMG/GBW.png" width="410px" height="250px" >
+ <img src="https://user-images.githubusercontent.com/26294051/208060024-21eacd01-c214-4a70-b973-1c44f1b48fe3.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
+ <img src="https://user-images.githubusercontent.com/26294051/208060034-f84dc817-594e-4c1b-88f1-2b10b6e040cb.png" width="410px" height="250px" >
 
-<img src="./IMG/TRENDDLG.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
-<img src="./IMG/drawEdit2.png" width="410px" height="250px" >
+ <img src="https://user-images.githubusercontent.com/26294051/208060051-eadaa3c8-ecf7-41ae-b7cc-1184bdd093af.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
+ <img src="https://user-images.githubusercontent.com/26294051/208060038-e2f80fa0-85d8-4211-8f42-02075c0364f6.png" width="410px" height="250px" >
 
-<img src="./IMG/SMD.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
-<img src="./IMG/LID.png" width="410px" height="250px" >
-
-<img src="./IMG/3DG.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
-<img src="./IMG/LOGIC.png" width="410px" height="250px" >
+ <img src="https://user-images.githubusercontent.com/26294051/208060032-1874f393-ceb2-45dd-94bc-c16f7ccf5092.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
+ <img src="https://user-images.githubusercontent.com/26294051/208060039-af443daf-7ce6-446e-a9a4-ac3db9ec2fa9.png" width="410px" height="250px" >
+</div>
 
 
 <br/><br/>
