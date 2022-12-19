@@ -127,21 +127,68 @@ Factory automation infrastructure, HMI solution
 ## overview,
 
 
-Digital Substation Automation Operation System is HMI(Human Machine Interface) system which provides operating information on each facility in the IEC 61850-based SA (Substation Automation) digital substation to the operator.
+Digital Substation Automation Operation System is **HMI**(Human Machine Interface) system which provides operating information on each facility in the IEC 61850-based **SA** (Substation Automation) digital substation to the operator.
 
 <br/>
 
 
-<img src="../Gallery/QTSA.png" width="600px" height="300px" style="margin-right:20px">
-<img src="https://user-images.githubusercontent.com/26294051/208050660-8ae2321a-f15d-456c-a56d-8cfd1cd897a1.png" width="500px" height="300px">
+<img src="./IMG/QTSA.png" width="420px" height="250px" style="margin-right:15px">
+<img src="./IMG/GB.png" width="400px" height="250px" >
+<img src="./IMG/SASYSTEM.png" width="840px" height="520px" style="margin-top:20px">
 
 
+<br/><br/>
 
 
+## Technologies Uesd,
 
+Qt Framework, Qml GUI, Qt widget App,  IPC(Inter-Process Communication)
+- OOP of 2D Graphic object.
+- GUI Engineering tool & Graphic Builder.
+- IPC Shared memory control and expression.
+- Real-time processing of communication data.
+
+<br/><br/>
+<br/><br/>
+<br/><br/>
+
+*project 2*
+
+## SA System - Extend Web App<br><br>
+
+## overview,
+
+
+Web extension version of the SA System.<br>
 
 <br/>
 <br/>
+
+<img src="./IMG/SINGLELINE.png" width="410px" height="250px" style="margin-right:15px">
+<img src="./IMG/GBW.png" width="410px" height="250px" >
+
+<img src="./IMG/TRENDDLG.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
+<img src="./IMG/drawEdit2.png" width="410px" height="250px" >
+
+<img src="./IMG/SMD.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
+<img src="./IMG/LID.png" width="410px" height="250px" >
+
+<img src="./IMG/3DG.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
+<img src="./IMG/LOGIC.png" width="410px" height="250px" >
+
+
+<br/><br/>
+
+
+## Technologies Uesd,
+
+ASP.NET Core, .NET5, EF Core, Node.js, Vue.js, Nuxt.js, HTML5/CSS, Konva.js, Lightning Chart js
+- Build an API server to service data
+- Provide engineering UI from the front end.
+- 2D & 3D Visualization.
+- Real-time processing of communication data.
+
+
 <br/>
 <br/>
 <br/>
