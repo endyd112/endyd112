@@ -132,8 +132,8 @@ Digital Substation Automation Operation System is **HMI**(Human Machine Interfac
 <br/>
 
 
-<img src="https://user-images.githubusercontent.com/26294051/208060040-d0f57bca-79b6-4474-9570-1ad0e1af6151.png" width="420px" height="250px" style="margin-right:15px">
-<img src="https://user-images.githubusercontent.com/26294051/208050660-8ae2321a-f15d-456c-a56d-8cfd1cd897a1.png" width="400px" height="250px" >
+<img src="https://user-images.githubusercontent.com/26294051/208060040-d0f57bca-79b6-4474-9570-1ad0e1af6151.png" width="420px" height="250px" style="margin-right:15px;"/>
+<img src="https://user-images.githubusercontent.com/26294051/208050660-8ae2321a-f15d-456c-a56d-8cfd1cd897a1.png" width="400px" height="250px" />
 <img src="https://user-images.githubusercontent.com/26294051/208060046-83708df4-f25b-4a13-a969-bff2850456be.png" width="840px" height="520px" style="margin-top:20px">
 
 
