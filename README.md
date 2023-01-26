@@ -27,7 +27,7 @@ Have a day full of JOY today.
 
 <br/>
 
-- ###  *Web service expansioin of F/A System*
+- ###  *Web service expansion of F/A System*
 - ###  *0 to 1, Knowledge and experience as a full-stack developer*
 <br/>
 
