@@ -71,7 +71,7 @@ Have a day full of JOY today.
 <br/><br/>
 
 
-_Sept. 2019 - Present_
+_Sept. 2019 - 2023.1_
 
 
 **Company 1**
