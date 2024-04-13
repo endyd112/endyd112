@@ -43,6 +43,8 @@ Have a day full of JOY today.
 <br>
 <img src="https://img.shields.io/badge/.NET-5C2D91?style=flat-square&logo=.net&logoColor=white"/>
 <img src="https://img.shields.io/badge/Qt-%23217346.svg?style=flat-square&logo=Qt&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-4FC08D.svg?style=flat-square&logo=Spring&logoColor=white"/>
+<img src="https://img.shields.io/badge/PLSQL-%23917346.svg?style=flat-square&logo=SQL&logoColor=white"/>
 <br>
 
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
@@ -59,6 +61,7 @@ Have a day full of JOY today.
 
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
 <img src="https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=flat-square&logo=microsoft%20sql%20server&ogoColor=white"/>
+<img src="https://img.shields.io/badge/JIRA-F05032?style=flat-square&logo=Jira&logoColor=white"/>
 
 
 </div>
