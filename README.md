@@ -73,6 +73,32 @@ Have a day full of JOY today.
 ## **Career History**
 <br/><br/>
 
+_March. 2023 ~
+
+
+**Company 3**
+
+**Seoul, South Korea - SoftOne** <br>
+Company Description,
+total number of people: 146
+- Distribution Division
+- E-commerce Division
+- Department of Public Works
+- Solution Division
+
+Business :
+consulting 
+system development
+system integration
+system managemen
+
+
+**System Maintenance / Construction Busines Team**
+**Senior Assistant**
+
+<br/><br/>
+
+
 
 _Sept. 2019 - Jan. 2023_
 
