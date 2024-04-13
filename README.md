@@ -74,7 +74,7 @@ Have a day full of JOY today.
 _Sept. 2019 - Jan. 2023_
 
 
-**Company 1**
+**Company 2**
 
 **Incheon, South Korea - SANION** <br>
 Company Description,
@@ -97,7 +97,7 @@ Distribution Panel
 
 _Jun. 2015 - 2019_
 
-**Company 2**
+**Company 1**
 
 **Seoul, South Korea - WELLTAC** <br>
 
