@@ -74,7 +74,31 @@ Have a day full of JOY today.
 ## **Career History**
 <br/><br/>
 
-_March. 2023 ~
+_August. 2024 ~ April. 2025_
+
+
+**Company 4**
+
+**Seoul, South Korea - Wezon** <br>
+Company Description,
+total number of people: 199
+- System Integration / System Management
+- ICT & IoT specialized solution
+- Industrial network and monitoring Server and storage
+
+Business :
+DX & ESG consulting
+Plant IT solution specialized company
+system integration
+SI, ERP, WMS, etc.
+
+
+**System Integration / Field Integration Team**
+**Senior Mangaer**
+
+<br/><br/>
+
+_March. 2023 ~ August. 2024_
 
 
 **Company 3**
