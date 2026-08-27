@@ -54,6 +54,7 @@ Have a day full of JOY today.
 <br>
 <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white"/>
 <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=flat-square&logo=bootstrap&logoColor=white"/>
+<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
 <br>
 <img src="https://img.shields.io/badge/chart.js-F5788D.svg?style=flat-square&logo=chart.js&logoColor=white"/>
 <img src="https://img.shields.io/badge/threejs-black?style=flat-square&logo=three.js&logoColor=white"/>
