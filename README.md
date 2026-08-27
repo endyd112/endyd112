@@ -81,28 +81,31 @@ Have a day full of JOY today.
 ## **Career History**
 <br/><br/>
 
-**Work Experience**
-April. 2025 ~ Present<br>
+_April. 2025 ~ Present_
+
 **LK11**
-South Korea - Technical Business Division
-Company Description, total number of people: 19
-Software & Hardware Manufacturing / SME (Annual Revenue: 3.2 Billion KRW)
-Business : Power System Solutions, SCADA HMI, Industrial Automation
-Senior Manager (Technical Lead)
 
-Key Projects:
+**South Korea - LK11** <br>
+Company Description,
+total number of people: 19
+- Software & Hardware Manufacturing / SME
+- Annual Revenue: 3.2 Billion KRW
+- Power System Solutions & Industrial Automation
 
-LS Electric STATCOM (Static Synchronous Compensator) System
+Business :
+Power System Solutions
+SCADA HMI & Automation
+Industrial Control & Communication
 
-Korea East-West Power (EWP) KPX Ancillary Service Settlement Frequency Precision Measurement System
 
-Extensive Power Domain Expertise: Leveraged comprehensive knowledge across the entire power domain ecosystem, encompassing substation centralized monitoring, RTU equipment integration, upper-level communication, and KPX settlement processes.
+**Technical Business Division**
+**Senior Manager (Technical Lead)**
 
-Field-Centric SCADA HMI Development: Led the development of SCADA HMI solutions in close collaboration with field engineers. Effectively translated hands-on operational needs into practical system functionalities, earning outstanding feedback and recognition from clients and branch offices for delivering highly optimized and user-friendly systems.
-
-System Architecture & Data Integration: Architected and implemented core analysis engines, upper-level communication integration (DNP3), and device data acquisition systems.
-
-Tech Stack: Python, .NET Aspire, ZENON E/E Engineering, IEC 61131-3, DNP3
+- **Key Projects:** LS Electric STATCOM System / Korea East-West Power (EWP) KPX Ancillary Service Settlement System
+- **Power Domain Expertise:** Comprehensive knowledge across the power domain ecosystem, including substation centralized monitoring, RTU equipment integration, upper-level communication, and KPX settlement processes.
+- **Field-Centric SCADA HMI Development:** Led HMI development in close collaboration with field engineers, translating operational needs into practical features that received high praise from clients and branch offices.
+- **System Architecture & Integration:** Architected core analysis engines, upper-level communication (DNP3), and device data acquisition systems.
+- **Tech Stack:** Python, .NET Aspire, ZENON E/E Engineering, IEC 61131-3, DNP3
 
 <br/><br/>
 
