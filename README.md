@@ -83,7 +83,6 @@ Have a day full of JOY today.
 
 _April. 2025 ~ Present_
 
-**LK11**
 
 **South Korea - LK11** <br>
 Company Description,
