@@ -81,9 +81,9 @@ Have a day full of JOY today.
 ## **Career History**
 <br/><br/>
 
-Work Experience
-April. 2025 ~ Present
-LK11
+**Work Experience**
+April. 2025 ~ Present<br>
+**LK11**
 South Korea - Technical Business Division
 Company Description, total number of people: 19
 Software & Hardware Manufacturing / SME (Annual Revenue: 3.2 Billion KRW)
