@@ -81,6 +81,31 @@ Have a day full of JOY today.
 ## **Career History**
 <br/><br/>
 
+Work Experience
+April. 2025 ~ Present
+LK11
+South Korea - Technical Business Division
+Company Description, total number of people: 19
+Software & Hardware Manufacturing / SME (Annual Revenue: 3.2 Billion KRW)
+Business : Power System Solutions, SCADA HMI, Industrial Automation
+Senior Manager (Technical Lead)
+
+Key Projects:
+
+LS Electric STATCOM (Static Synchronous Compensator) System
+
+Korea East-West Power (EWP) KPX Ancillary Service Settlement Frequency Precision Measurement System
+
+Extensive Power Domain Expertise: Leveraged comprehensive knowledge across the entire power domain ecosystem, encompassing substation centralized monitoring, RTU equipment integration, upper-level communication, and KPX settlement processes.
+
+Field-Centric SCADA HMI Development: Led the development of SCADA HMI solutions in close collaboration with field engineers. Effectively translated hands-on operational needs into practical system functionalities, earning outstanding feedback and recognition from clients and branch offices for delivering highly optimized and user-friendly systems.
+
+System Architecture & Data Integration: Architected and implemented core analysis engines, upper-level communication integration (DNP3), and device data acquisition systems.
+
+Tech Stack: Python, .NET Aspire, ZENON E/E Engineering, IEC 61131-3, DNP3
+
+<br/><br/>
+
 _August. 2024 ~ April. 2025_
 
 
