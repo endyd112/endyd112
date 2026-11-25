@@ -97,7 +97,7 @@ SCADA HMI·자동화 ·
 - **전력 도메인 전문성:** 변전소 집중 감시, RTU 장비 연동, 상위 통신, KPX 정산 절차까지 전력 분야 전반을 폭넓게 이해합니다.
 - **현장 중심 SCADA HMI 개발:** 현장 엔지니어와 긴밀히 협업해 운영상의 요구를 실용적인 기능으로 옮겼고, 고객사와 지사에서 높은 평가를 받았습니다.
 - **시스템 아키텍처·통합:** 핵심 분석 엔진, 상위 통신(DNP3), 장치 데이터 수집 시스템을 설계했습니다.
-- **차세대 SCADA 플랫폼 (2026, 진행 중):** 크로스플랫폼 SCADA 제품의 아키텍처와 명세를 단독 설계자로 이끌고 있습니다 — 레거시 분석, 제품 아키텍처, 보안(IEC 62443) 설계, 실행 가능한 명세. 아래 *프로젝트 3* 참고.
+- **차세대 SCADA 플랫폼 (2026, 진행 중):** 크로스플랫폼 SCADA 제품의 아키텍처와 명세를 단독 설계자로 이끌고 있습니다 — 레거시 분석, 제품 아키텍처, 보안(IEC 62443) 설계, 실행 가능한 명세. 아래 *프로젝트 1* 참고.
 - **기술 스택:** Python, .NET Aspire, ZENON E/E Engineering, IEC 61131-3, DNP3
 
 <br/><br/>
@@ -196,83 +196,6 @@ _2015.06 ~ 2019_
 
 *프로젝트 1*
 
-## 디지털 변전소 HMI (SA System) <br><br>
-
-### 개요
-
-**IEC 61850 기반 디지털 변전소**의 운영자 HMI입니다. 변전소의 모든 베이와 장치를 실시간으로 보여 주는, 변전 자동화(SA) 시스템의 운영 화면입니다.
-
-<br/>
-
-<div style="display:flex;">
- <img src="https://user-images.githubusercontent.com/26294051/208060040-d0f57bca-79b6-4474-9570-1ad0e1af6151.png" width="420px" height="250px" />
- <img src="https://user-images.githubusercontent.com/26294051/208050660-8ae2321a-f15d-456c-a56d-8cfd1cd897a1.png" width="415px" height="250px" />
- <img src="https://user-images.githubusercontent.com/26294051/208060046-83708df4-f25b-4a13-a969-bff2850456be.png" width="840px" height="520px" style="margin-top:20px">
-</div>
-
-<br/><br/>
-
-
-### 한 일
-
-- **그래픽 객체 모델**: 2D 그래픽 객체를 객체지향 모델로 설계해, 화면 요소를 그림이 아닌 재사용 가능한 부품으로 만들었습니다.
-- **엔지니어링 도구·그래픽 빌더**: 엔지니어가 코드 없이 운영 화면을 구성하는 GUI 엔지니어링 도구를 만들었습니다.
-- **공유 메모리 IPC**: HMI와 통신 프로세스를 공유 메모리로 연결하고, 실시간 데이터를 화면에 바인딩했습니다.
-- **실시간 데이터**: 현장 통신 데이터를 실시간으로 처리하고 표시했습니다.
-
-### 기술
-
-Qt (QML · Widgets), C++, 공유 메모리 IPC
-
-<br/><br/>
-<br/><br/>
-<br/><br/>
-
-*프로젝트 2*
-
-## 디지털 변전소 HMI — 웹 확장<br><br>
-
-### 개요
-
-데스크톱 SA HMI를 웹으로 확장해, 같은 변전소 데이터와 엔지니어링 기능을 브라우저에서 쓸 수 있게 했습니다.
-
-<br/>
-<br/>
-<div style="display:flex;">
- <img src="https://user-images.githubusercontent.com/26294051/208060292-962629dd-9e77-48b2-b5bc-62d2bfa8d9ec.png" width="410px" height="250px" style="margin-right:15px">
- <img src="https://user-images.githubusercontent.com/26294051/208060036-dbac134e-47ce-4178-b8db-c4ee6a2feb87.png" width="410px" height="250px" >
-
- <img src="https://user-images.githubusercontent.com/26294051/208060024-21eacd01-c214-4a70-b973-1c44f1b48fe3.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
- <img src="https://user-images.githubusercontent.com/26294051/208060034-f84dc817-594e-4c1b-88f1-2b10b6e040cb.png" width="410px" height="250px" >
-
- <img src="https://user-images.githubusercontent.com/26294051/208060051-eadaa3c8-ecf7-41ae-b7cc-1184bdd093af.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
- <img src="https://user-images.githubusercontent.com/26294051/208060038-e2f80fa0-85d8-4211-8f42-02075c0364f6.png" width="410px" height="250px" >
-
- <img src="https://user-images.githubusercontent.com/26294051/208060032-1874f393-ceb2-45dd-94bc-c16f7ccf5092.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
- <img src="https://user-images.githubusercontent.com/26294051/208060039-af443daf-7ce6-446e-a9a4-ac3db9ec2fa9.png" width="410px" height="250px" >
-</div>
-
-
-<br/><br/>
-
-
-### 한 일
-
-- **API 서버**: 웹 클라이언트에 변전소 데이터를 제공하는 백엔드 API 서버를 만들었습니다.
-- **웹 엔지니어링 UI**: 엔지니어링 기능을 프런트엔드로 옮겼습니다.
-- **2D·3D 시각화**: 브라우저에서 2D 도면과 3D 화면을 구현했습니다.
-- **실시간 데이터**: 실시간 통신 데이터를 웹으로 전달했습니다.
-
-### 기술
-
-ASP.NET Core (.NET 5), EF Core, Node.js, Vue.js / Nuxt.js, HTML5 / CSS, Konva.js, LightningChart JS
-
-
-<br/><br/>
-<br/><br/>
-
-*프로젝트 3*
-
 ## 차세대 SCADA 플랫폼 — 아키텍처·명세 설계 <br><br>
 
 ### 개요
@@ -314,10 +237,116 @@ flowchart LR
 
 C++ (ACE), CMake / vcpkg, .NET 10, gRPC / SignalR, .NET Aspire, 공유 메모리 IPC, DNP3 / SAv5 / TLS, IEC 62443, IEC 62351, PostgreSQL, Apache Arrow, LightningChart JS, Claude Code
 
-<br/>
-<br/>
-<br/>
+<br/><br/>
+<br/><br/>
+
+*프로젝트 2*
+
+## Governor Free Measurement System (GFMS) — 분석 엔진·뷰어 <br><br>
+
+### 개요
+
+발전기가 계통 주파수 변화에 어떻게 응답하는지(조속기 자유운전, Governor Free)를 전력거래소(KPX)의 보조서비스 평가와 같은 방식으로 평가하는 측정·분석 시스템입니다. 발전소에서 GNSS로 시각을 맞춘 고분해능(100ms) 주파수와 발전 출력을 수집하고, 속도조정률, AGC 증/감발률, 주파수 응답 이행률을 계산합니다. 발전소는 공식 평가 전에 결과를 미리 확인하고 증빙을 준비할 수 있습니다.
+
 <br/>
 
+<p align="center">
+ <img src="assets/gfms/gfms.png" width="640px" alt="GFMS 분석 뷰어"/>
+ <img src="assets/gfms/gfms2.png" width="640px" alt="GFMS 속도조정률 결과" style="margin-top:20px"/>
+</p>
+
+<br/>
+
+### 한 일
+
+- **규정 → 알고리즘**: KPX 평가 규정을 정밀한 알고리즘 명세로 옮겼습니다 — 유효구간 검출(부동대, 연속 상승·하락, Threshold), 구간별 속도조정률, 상위 5% 제거, 합격 판정.
+- **차이 분석·구조 재설계**: 기존 평가 로직을 규정과 대조해 어긋난 부분(샘플 단위로 계산하던 속도조정률, 잘못된 증/감발률 종료 시점 등)을 찾고, 엔진을 모듈로 재구성했습니다 — 입력 검증, 전처리, 구간 검출, 평가, AGC 증/감발률, 주파수 응답, 판정.
+- **설정 기반 판정**: 판정 기준을 모드로 선택할 수 있고, 확인이 필요한 규정 해석은 모두 코드가 아닌 설정값으로 두었습니다.
+- **KPX와 같은 데이터 기준**: 100ms 원시 데이터를 KPX가 쓰는 2초 단위로 리샘플하고, 조속기 스텝시험 분석용 고분해능 모드는 따로 유지했습니다.
+- **재현성**: 모든 결과에 엔진 버전, 설정 해시, 입력 구간, 리샘플 방식을 기록하고, 발전소 DCS 값과 EMS-RTU 값을 교차 검증합니다. 시험 케이스는 규정 문서의 산정 예시로 만들었습니다.
+- **분석 뷰어**: 여러 호기 비교, 주파수·출력 겹쳐 보기와 검출 이벤트 표시, Excel(KPX 증빙용)·PDF 요약·원본 CSV 내보내기.
+
+### 기술
+
+Python, pandas, Parquet, YAML 설정, pytest, Excel / PDF 보고서
+
+<br/><br/>
+<br/><br/>
+
+*프로젝트 3*
+
+## 디지털 변전소 HMI — 웹 확장<br><br>
+
+### 개요
+
+데스크톱 SA HMI를 웹으로 확장해, 같은 변전소 데이터와 엔지니어링 기능을 브라우저에서 쓸 수 있게 했습니다.
+
+<br/>
+<br/>
+<div style="display:flex;">
+ <img src="https://user-images.githubusercontent.com/26294051/208060292-962629dd-9e77-48b2-b5bc-62d2bfa8d9ec.png" width="410px" height="250px" style="margin-right:15px">
+ <img src="https://user-images.githubusercontent.com/26294051/208060036-dbac134e-47ce-4178-b8db-c4ee6a2feb87.png" width="410px" height="250px" >
+
+ <img src="https://user-images.githubusercontent.com/26294051/208060024-21eacd01-c214-4a70-b973-1c44f1b48fe3.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
+ <img src="https://user-images.githubusercontent.com/26294051/208060034-f84dc817-594e-4c1b-88f1-2b10b6e040cb.png" width="410px" height="250px" >
+
+ <img src="https://user-images.githubusercontent.com/26294051/208060051-eadaa3c8-ecf7-41ae-b7cc-1184bdd093af.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
+ <img src="https://user-images.githubusercontent.com/26294051/208060038-e2f80fa0-85d8-4211-8f42-02075c0364f6.png" width="410px" height="250px" >
+
+ <img src="https://user-images.githubusercontent.com/26294051/208060032-1874f393-ceb2-45dd-94bc-c16f7ccf5092.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
+ <img src="https://user-images.githubusercontent.com/26294051/208060039-af443daf-7ce6-446e-a9a4-ac3db9ec2fa9.png" width="410px" height="250px" >
+</div>
+
+
+<br/><br/>
+
+
+### 한 일
+
+- **API 서버**: 웹 클라이언트에 변전소 데이터를 제공하는 백엔드 API 서버를 만들었습니다.
+- **웹 엔지니어링 UI**: 엔지니어링 기능을 프런트엔드로 옮겼습니다.
+- **2D·3D 시각화**: 브라우저에서 2D 도면과 3D 화면을 구현했습니다.
+- **실시간 데이터**: 실시간 통신 데이터를 웹으로 전달했습니다.
+
+### 기술
+
+ASP.NET Core (.NET 5), EF Core, Node.js, Vue.js / Nuxt.js, HTML5 / CSS, Konva.js, LightningChart JS
+
+<br/><br/>
+<br/><br/>
+
+*프로젝트 4*
+
+## 디지털 변전소 HMI (SA System) <br><br>
+
+### 개요
+
+**IEC 61850 기반 디지털 변전소**의 운영자 HMI입니다. 변전소의 모든 베이와 장치를 실시간으로 보여 주는, 변전 자동화(SA) 시스템의 운영 화면입니다.
+
+<br/>
+
+<div style="display:flex;">
+ <img src="https://user-images.githubusercontent.com/26294051/208060040-d0f57bca-79b6-4474-9570-1ad0e1af6151.png" width="420px" height="250px" />
+ <img src="https://user-images.githubusercontent.com/26294051/208050660-8ae2321a-f15d-456c-a56d-8cfd1cd897a1.png" width="415px" height="250px" />
+ <img src="https://user-images.githubusercontent.com/26294051/208060046-83708df4-f25b-4a13-a969-bff2850456be.png" width="840px" height="520px" style="margin-top:20px">
+</div>
+
+<br/><br/>
+
+
+### 한 일
+
+- **그래픽 객체 모델**: 2D 그래픽 객체를 객체지향 모델로 설계해, 화면 요소를 그림이 아닌 재사용 가능한 부품으로 만들었습니다.
+- **엔지니어링 도구·그래픽 빌더**: 엔지니어가 코드 없이 운영 화면을 구성하는 GUI 엔지니어링 도구를 만들었습니다.
+- **공유 메모리 IPC**: HMI와 통신 프로세스를 공유 메모리로 연결하고, 실시간 데이터를 화면에 바인딩했습니다.
+- **실시간 데이터**: 현장 통신 데이터를 실시간으로 처리하고 표시했습니다.
+
+### 기술
+
+Qt (QML · Widgets), C++, 공유 메모리 IPC
+
+<br/>
+<br/>
+<br/>
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=120&section=footer)

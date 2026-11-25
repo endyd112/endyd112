@@ -99,7 +99,7 @@ Industrial Control & Communication
 - **Power Domain Expertise:** Comprehensive knowledge across the power domain ecosystem, including substation centralized monitoring, RTU equipment integration, upper-level communication, and KPX settlement processes.
 - **Field-Centric SCADA HMI Development:** Led HMI development in close collaboration with field engineers, translating operational needs into practical features that received high praise from clients and branch offices.
 - **System Architecture & Integration:** Architected core analysis engines, upper-level communication (DNP3), and device data acquisition systems.
-- **Next-Generation SCADA Platform (2026, in progress):** Leading the architecture and specification of a cross-platform SCADA product as the sole designer — legacy analysis, product architecture, security (IEC 62443) design and executable specifications. See *Project 3* below.
+- **Next-Generation SCADA Platform (2026, in progress):** Leading the architecture and specification of a cross-platform SCADA product as the sole designer — legacy analysis, product architecture, security (IEC 62443) design and executable specifications. See *Project 1* below.
 - **Tech Stack:** Python, .NET Aspire, ZENON E/E Engineering, IEC 61131-3, DNP3
 
 <br/><br/>
@@ -206,83 +206,6 @@ Factory automation infrastructure, HMI solution
 
 *project 1*
 
-## Digital Substation HMI (SA System) <br><br>
-
-### Overview
-
-Operator HMI for **IEC 61850-based digital substations**. It gives operators a real-time view of every bay and device in the substation and is the operating screen of the Substation Automation (SA) system.
-
-<br/>
-
-<div style="display:flex;">
- <img src="https://user-images.githubusercontent.com/26294051/208060040-d0f57bca-79b6-4474-9570-1ad0e1af6151.png" width="420px" height="250px" />
- <img src="https://user-images.githubusercontent.com/26294051/208050660-8ae2321a-f15d-456c-a56d-8cfd1cd897a1.png" width="415px" height="250px" />
- <img src="https://user-images.githubusercontent.com/26294051/208060046-83708df4-f25b-4a13-a969-bff2850456be.png" width="840px" height="520px" style="margin-top:20px">
-</div>
-
-<br/><br/>
-
-
-### What I did
-
-- **Graphic object model**: Designed an object-oriented model for 2D graphic objects, so screen elements are reusable components rather than drawn shapes.
-- **Engineering tool & graphic builder**: Built the GUI engineering tool that lets engineers compose operating screens without code.
-- **Shared-memory IPC**: Connected the HMI to the communication processes through shared memory, and bound live data to the screen.
-- **Real-time data**: Processed and displayed field communication data in real time.
-
-### Tech
-
-Qt (QML · Widgets), C++, Shared-memory IPC
-
-<br/><br/>
-<br/><br/>
-<br/><br/>
-
-*project 2*
-
-## Digital Substation HMI — Web Extension<br><br>
-
-### Overview
-
-Extended the desktop SA HMI to the web, so the same substation data and engineering functions are available in a browser.
-
-<br/>
-<br/>
-<div style="display:flex;">
- <img src="https://user-images.githubusercontent.com/26294051/208060292-962629dd-9e77-48b2-b5bc-62d2bfa8d9ec.png" width="410px" height="250px" style="margin-right:15px">
- <img src="https://user-images.githubusercontent.com/26294051/208060036-dbac134e-47ce-4178-b8db-c4ee6a2feb87.png" width="410px" height="250px" >
-
- <img src="https://user-images.githubusercontent.com/26294051/208060024-21eacd01-c214-4a70-b973-1c44f1b48fe3.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
- <img src="https://user-images.githubusercontent.com/26294051/208060034-f84dc817-594e-4c1b-88f1-2b10b6e040cb.png" width="410px" height="250px" >
-
- <img src="https://user-images.githubusercontent.com/26294051/208060051-eadaa3c8-ecf7-41ae-b7cc-1184bdd093af.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
- <img src="https://user-images.githubusercontent.com/26294051/208060038-e2f80fa0-85d8-4211-8f42-02075c0364f6.png" width="410px" height="250px" >
-
- <img src="https://user-images.githubusercontent.com/26294051/208060032-1874f393-ceb2-45dd-94bc-c16f7ccf5092.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
- <img src="https://user-images.githubusercontent.com/26294051/208060039-af443daf-7ce6-446e-a9a4-ac3db9ec2fa9.png" width="410px" height="250px" >
-</div>
-
-
-<br/><br/>
-
-
-### What I did
-
-- **API server**: Built the back-end API server that serves substation data to web clients.
-- **Web engineering UI**: Brought the engineering functions to the front end.
-- **2D & 3D visualization**: Implemented 2D diagrams and 3D views in the browser.
-- **Real-time data**: Delivered live communication data to the web in real time.
-
-### Tech
-
-ASP.NET Core (.NET 5), EF Core, Node.js, Vue.js / Nuxt.js, HTML5 / CSS, Konva.js, LightningChart JS
-
-
-<br/><br/>
-<br/><br/>
-
-*project 3*
-
 ## Next-Generation SCADA Platform — Architecture & Specification <br><br>
 
 ### Overview
@@ -324,14 +247,117 @@ I ran the design phase with **Claude Code** as an engineering assistant. I set t
 
 C++ (ACE), CMake / vcpkg, .NET 10, gRPC / SignalR, .NET Aspire, Shared Memory IPC, DNP3 / SAv5 / TLS, IEC 62443, IEC 62351, PostgreSQL, Apache Arrow, LightningChart JS, Claude Code
 
+<br/><br/>
+<br/><br/>
+
+*project 2*
+
+## Governor Free Measurement System (GFMS) — Analysis Engine & Viewer <br><br>
+
+### Overview
+
+A measurement and analysis system that evaluates how power-plant generators respond to grid frequency (governor-free response), in the same way the Korea Power Exchange (KPX) assesses ancillary services. It collects high-resolution (100 ms), GNSS-synchronized frequency data and generator output at the plant, then calculates speed droop, AGC ramp rates and frequency-response compliance — so the plant can check its results before the official evaluation and prepare evidence.
+
+<br/>
+
+<p align="center">
+ <img src="assets/gfms/gfms.png" width="640px" alt="GFMS analysis viewer"/>
+ <img src="assets/gfms/gfms2.png" width="640px" alt="GFMS speed droop result" style="margin-top:20px"/>
+</p>
+
+<br/>
+
+### What I did
+
+- **Regulation → algorithm**: Turned the KPX evaluation rules into a precise algorithm spec: valid-interval detection (deadband, consecutive trend, threshold), per-interval speed droop, top-5% outlier removal and pass/fail judgement.
+- **Gap analysis & re-architecture**: Compared the existing evaluator with the rules, found where it diverged (e.g., sample-wise instead of interval-wise droop, wrong end time for ramp rates) and restructured the engine into modules — schema, preprocessing, detector, evaluator, AGC ramp, frequency response, judgement.
+- **Configurable judgement**: Judgement criteria are selectable by mode, and every rule interpretation that needs confirmation lives in configuration, never in code.
+- **KPX-equivalent data path**: Resampled 100 ms raw data to the 2 s grid KPX uses, while keeping a high-resolution mode for governor step-test analysis.
+- **Traceability**: Every result records engine version, config hash, input range and resampling mode; plant DCS and EMS-RTU values are cross-checked; test cases are built from the rule documents' worked examples.
+- **Analysis viewer**: Multi-unit comparison, frequency/output overlay with detected-event markers, and export to Excel (evidence for KPX), PDF summary and raw CSV.
+
+### Tech
+
+Python, pandas, Parquet, YAML configuration, pytest, Excel / PDF reporting
+
+<br/><br/>
+<br/><br/>
+
+*project 3*
+
+## Digital Substation HMI — Web Extension<br><br>
+
+### Overview
+
+Extended the desktop SA HMI to the web, so the same substation data and engineering functions are available in a browser.
+
+<br/>
+<br/>
+<div style="display:flex;">
+ <img src="https://user-images.githubusercontent.com/26294051/208060292-962629dd-9e77-48b2-b5bc-62d2bfa8d9ec.png" width="410px" height="250px" style="margin-right:15px">
+ <img src="https://user-images.githubusercontent.com/26294051/208060036-dbac134e-47ce-4178-b8db-c4ee6a2feb87.png" width="410px" height="250px" >
+
+ <img src="https://user-images.githubusercontent.com/26294051/208060024-21eacd01-c214-4a70-b973-1c44f1b48fe3.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
+ <img src="https://user-images.githubusercontent.com/26294051/208060034-f84dc817-594e-4c1b-88f1-2b10b6e040cb.png" width="410px" height="250px" >
+
+ <img src="https://user-images.githubusercontent.com/26294051/208060051-eadaa3c8-ecf7-41ae-b7cc-1184bdd093af.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
+ <img src="https://user-images.githubusercontent.com/26294051/208060038-e2f80fa0-85d8-4211-8f42-02075c0364f6.png" width="410px" height="250px" >
+
+ <img src="https://user-images.githubusercontent.com/26294051/208060032-1874f393-ceb2-45dd-94bc-c16f7ccf5092.png" width="410px" height="250px" style="margin-right:15px;margin-top:20px;">
+ <img src="https://user-images.githubusercontent.com/26294051/208060039-af443daf-7ce6-446e-a9a4-ac3db9ec2fa9.png" width="410px" height="250px" >
+</div>
+
+
+<br/><br/>
+
+
+### What I did
+
+- **API server**: Built the back-end API server that serves substation data to web clients.
+- **Web engineering UI**: Brought the engineering functions to the front end.
+- **2D & 3D visualization**: Implemented 2D diagrams and 3D views in the browser.
+- **Real-time data**: Delivered live communication data to the web in real time.
+
+### Tech
+
+ASP.NET Core (.NET 5), EF Core, Node.js, Vue.js / Nuxt.js, HTML5 / CSS, Konva.js, LightningChart JS
+
+<br/><br/>
+<br/><br/>
+
+*project 4*
+
+## Digital Substation HMI (SA System) <br><br>
+
+### Overview
+
+Operator HMI for **IEC 61850-based digital substations**. It gives operators a real-time view of every bay and device in the substation and is the operating screen of the Substation Automation (SA) system.
+
+<br/>
+
+<div style="display:flex;">
+ <img src="https://user-images.githubusercontent.com/26294051/208060040-d0f57bca-79b6-4474-9570-1ad0e1af6151.png" width="420px" height="250px" />
+ <img src="https://user-images.githubusercontent.com/26294051/208050660-8ae2321a-f15d-456c-a56d-8cfd1cd897a1.png" width="415px" height="250px" />
+ <img src="https://user-images.githubusercontent.com/26294051/208060046-83708df4-f25b-4a13-a969-bff2850456be.png" width="840px" height="520px" style="margin-top:20px">
+</div>
+
+<br/><br/>
+
+
+### What I did
+
+- **Graphic object model**: Designed an object-oriented model for 2D graphic objects, so screen elements are reusable components rather than drawn shapes.
+- **Engineering tool & graphic builder**: Built the GUI engineering tool that lets engineers compose operating screens without code.
+- **Shared-memory IPC**: Connected the HMI to the communication processes through shared memory, and bound live data to the screen.
+- **Real-time data**: Processed and displayed field communication data in real time.
+
+### Tech
+
+Qt (QML · Widgets), C++, Shared-memory IPC
+
 <br/>
 <br/>
 <br/>
-<br/>
-
-
-
-
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=120&section=footer)
 
