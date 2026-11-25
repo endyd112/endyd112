@@ -93,7 +93,7 @@ Industrial Control & Communication
 
 
 **Technical Business Division**
-**Senior Manager (Technical Lead)**
+**Senior Research Engineer (Technical Lead)**
 
 - **Key Projects:** LS Electric STATCOM System / Korea East-West Power (EWP) KPX Ancillary Service Settlement System
 - **Power Domain Expertise:** Comprehensive knowledge across the power domain ecosystem, including substation centralized monitoring, RTU equipment integration, upper-level communication, and KPX settlement processes.
