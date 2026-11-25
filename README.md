@@ -10,7 +10,7 @@
 <br/>
 <h3>Hi there 👋</h3><br/>
 Hello, I'm Kim.<br/>
-My goal is to  good full stack developer to industrial.<br/>
+I build reliable software for power systems and industrial automation.<br/>
 Have a day full of JOY today.
 
 
@@ -25,10 +25,19 @@ Have a day full of JOY today.
 ---
 ## **Career Summary**
 
+> **Power-system software architect with 10+ years across factory automation, digital substations and grid operations.**
+> I design SCADA systems end to end — from field device communication to the operator's screen — and I build them to be trusted in critical infrastructure.
+
 <br/>
 
-- ###  *Web service expansion of F/A System*
-- ###  *0 to 1, Knowledge and experience as a full-stack developer*
+| | |
+|---|---|
+| **Now** | Technical Lead · Architect of a next-generation, cross-platform SCADA platform (C++ real-time engine · .NET services · DNP3 · IEC 62443 security by design) |
+| **Domain** | Substation automation (IEC 61850), centralized monitoring, RTU integration, DNP3 telemetry, power-market (KPX) settlement, industrial HMI |
+| **Strength** | Turning field-proven legacy behavior into clean, testable architecture — legacy analysis → executable specifications → staged delivery |
+| **Range** | Embedded-to-web full stack: Qt/C++ HMI, shared-memory IPC, ASP.NET Core APIs, Vue/Nuxt web extensions, real-time 2D/3D visualization |
+| **Way of working** | AI-assisted engineering with Claude Code — faster delivery, with design decisions and verification owned by me |
+
 <br/>
 
 ---
