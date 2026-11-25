@@ -4,6 +4,11 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=2C9AB7&center=true&vCenter=true&width=640&lines=SCADA+%C2%B7+DNP3+%C2%B7+IEC+61850+%C2%B7+IEC+62443;C%2B%2B+real-time+engine+%C2%B7+.NET+services;From+field+RTU+to+the+operator's+screen;10%2B+years+in+power+%26+industrial+automation" alt="typing intro"/>
 </p>
 
+<p align="center">
+  <a href="https://github.com/endyd112"><img src="https://img.shields.io/badge/English-2C9AB7?style=for-the-badge" alt="English"/></a>
+  <a href="https://github.com/endyd112/endyd112/blob/main/README.ko.md"><img src="https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4-203A43?style=for-the-badge" alt="한국어"/></a>
+</p>
+
 <h3 align="center">김두용 · キム ドゥヨン · DuYong Kim</h3>
 <p align="center"><i>こんにちは。電力・産業分野のソフトウェアアーキテクトです。</i></p>
 
