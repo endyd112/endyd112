@@ -18,7 +18,7 @@ Have a day full of JOY today.
 
 
 
- [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jjuhee0913@gmail.com)](mailto:endyd112@gmail.com)
+ [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white)](mailto:endyd112@gmail.com)
 <!-- [![Blog Badge](http://img.shields.io/badge/-Blog-green?style=flat-square&logo=Naver&link=https://blog.naver.com/112)](https://blog.naver.com/112) -->
 
 
@@ -71,6 +71,13 @@ Have a day full of JOY today.
 <img src="https://img.shields.io/badge/IEC_61850-005A9C?style=flat-square"/>
 <img src="https://img.shields.io/badge/IEC_60870-0072C6?style=flat-square"/>
 <img src="https://img.shields.io/badge/IEC_62443-D97706?style=flat-square"/>
+<img src="https://img.shields.io/badge/DNP3_(IEEE_1815)-2E7D32?style=flat-square"/>
+<br>
+<img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Apache_Arrow-0E1D3A?style=flat-square"/>
+<img src="https://img.shields.io/badge/gRPC-244C5A?style=flat-square"/>
+<img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
 
 </div>
 
@@ -104,6 +111,7 @@ Industrial Control & Communication
 - **Power Domain Expertise:** Comprehensive knowledge across the power domain ecosystem, including substation centralized monitoring, RTU equipment integration, upper-level communication, and KPX settlement processes.
 - **Field-Centric SCADA HMI Development:** Led HMI development in close collaboration with field engineers, translating operational needs into practical features that received high praise from clients and branch offices.
 - **System Architecture & Integration:** Architected core analysis engines, upper-level communication (DNP3), and device data acquisition systems.
+- **Next-Generation SCADA Platform (2026, in progress):** Leading the architecture and specification of a cross-platform SCADA product as the sole designer — legacy analysis, product architecture, security (IEC 62443) design and executable specifications. See *Project 3* below.
 - **Tech Stack:** Python, .NET Aspire, ZENON E/E Engineering, IEC 61131-3, DNP3
 
 <br/><br/>
@@ -128,7 +136,7 @@ SI, ERP, WMS, etc.
 
 
 **System Integration / Field Integration Team**
-**Senior Mangaer**
+**Senior Manager**
 
 <br/><br/>
 
@@ -149,10 +157,10 @@ Business :
 consulting 
 system development
 system integration
-system managemen
+system management
 
 
-**System Maintenance / Construction Busines Team**
+**System Maintenance / Construction Business Team**
 **Senior Assistant**
 
 <br/><br/>
@@ -228,7 +236,7 @@ Digital Substation Automation Operation System is **HMI**(Human Machine Interfac
 <br/><br/>
 
 
-## Technologies Uesd,
+## Technologies Used,
 
 Qt Framework, Qml GUI, Qt widget App,  IPC(Inter-Process Communication)
 - OOP of 2D Graphic object.
@@ -269,7 +277,7 @@ Web extension version of the SA System.<br>
 <br/><br/>
 
 
-## Technologies Uesd,
+## Technologies Used,
 
 ASP.NET Core, .NET5, EF Core, Node.js, Vue.js, Nuxt.js, HTML5/CSS, Konva.js, Lightning Chart js
 - Build an API server to service data
@@ -277,6 +285,39 @@ ASP.NET Core, .NET5, EF Core, Node.js, Vue.js, Nuxt.js, HTML5/CSS, Konva.js, Lig
 - 2D & 3D Visualization.
 - Real-time processing of communication data.
 
+
+<br/><br/>
+<br/><br/>
+
+*project 3*
+
+## Next-Generation SCADA Platform — Architecture & Specification <br><br>
+
+## overview,
+
+Design of a cross-platform (Windows · Linux) SCADA product for power substation monitoring and control, built to replace field-proven legacy systems without losing their behavior. I own the whole design phase as the sole architect: legacy analysis, product architecture, security design, test specification and milestone planning. The implementation phase starts from this specification set.
+
+<br/>
+
+### What I did
+
+- **Legacy analysis → reusable rules**: Analyzed the source code of two different legacy SCADA systems and benchmarked a commercial SCADA platform. Normalized communication procedures, control sequences and event logic into rule IDs, then into **~500 executable test vectors** (input → expected output) that serve as the normative spec.
+- **Product architecture**: Real-time C++ engine + shared-memory IPC + .NET service layer, with protocol drivers as plug-ins behind a stable C ABI and a driver conformance test kit. Generic engine core + domain packs, so one engine can serve multiple markets.
+- **Power communication**: DNP3 (IEEE 1815) master design — multi-session, unsolicited reporting, Secure Authentication v5, TLS — plus dual-line and Active/Standby server redundancy.
+- **Security by design**: IEC 62443-4-1 / 4-2 requirement matrix, hash-chained audit log, signed drivers, SBOM and static analysis in CI from the first milestone.
+- **Historian**: PostgreSQL for events + Apache Arrow chunked trend storage with multi-level downsampling for fast charting.
+- **Productization**: Edition-based licensing (tag limits, offline signed license), multi-console synchronization, RTU database upload/download with Excel import/export.
+- **Planning**: 13 technical specification documents and a milestone plan (M0–M8 + security certification phases), each milestone gated by acceptance-test scenario IDs.
+
+### How I worked — AI-assisted engineering
+
+I ran the design phase with **Claude Code** as an engineering assistant. I set the scope and rules, made every design decision, answered open questions from field knowledge, and reviewed and verified the output; the AI accelerated reading large legacy codebases, drafting documents and generating test vectors. Open questions were never guessed — they were recorded with assumptions, impact and a verification method, then resolved.
+
+<br/>
+
+## Technologies Used,
+
+C++ (ACE), CMake / vcpkg, .NET 10, gRPC / SignalR, .NET Aspire, Shared Memory IPC, DNP3 / SAv5 / TLS, IEC 62443, IEC 62351, PostgreSQL, Apache Arrow, LightningChart JS, Claude Code
 
 <br/>
 <br/>
