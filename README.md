@@ -1,10 +1,12 @@
-![header](https://capsule-render.vercel.app/api?type=waving&&color=gradient&height=100&section=header&fontSize=90)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=DuYong%20Kim&fontSize=64&fontColor=FFFFFF&fontAlignY=36&desc=Power-System%20Software%20Architect&descSize=20&descAlignY=58&animation=fadeIn)
 
-# 김두용 キム ドゥヨン DuYong Kim
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=2C9AB7&center=true&vCenter=true&width=640&lines=SCADA+%C2%B7+DNP3+%C2%B7+IEC+61850+%C2%B7+IEC+62443;C%2B%2B+real-time+engine+%C2%B7+.NET+services;From+field+RTU+to+the+operator's+screen;10%2B+years+in+power+%26+industrial+automation" alt="typing intro"/>
+</p>
 
+<h3 align="center">김두용 · キム ドゥヨン · DuYong Kim</h3>
+<p align="center"><i>こんにちは。電力・産業分野のソフトウェアアーキテクトです。</i></p>
 
-### _こんにちは。_
-### _産業分野のフルスタック開発者です。_
 <div>
 <br/>
 <br/>
@@ -43,50 +45,22 @@ Have a day full of JOY today.
 ---
 
 <br/>
-<h3>💻 Tech Stack 💻</h3>
+<h3>💻 Tech Stack</h3>
 
 <br/>
-<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white"/>
-<img src="https://img.shields.io/badge/c++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white">
-<img src="https://img.shields.io/badge/c%23-%23239120.svg?style=flat-square&logo=c-sharp&logoColor=white">
-<img src="https://img.shields.io/badge/Python-F7DF1E?style=flat-square&logo=Python&logoColor=white"/>
-<br>
-<img src="https://img.shields.io/badge/.NET-5C2D91?style=flat-square&logo=.net&logoColor=white"/>
-<img src="https://img.shields.io/badge/Qt-%23217346.svg?style=flat-square&logo=Qt&logoColor=white"/>
-<img src="https://img.shields.io/badge/Java-4FC08D.svg?style=flat-square&logo=Spring&logoColor=white"/>
-<img src="https://img.shields.io/badge/PLSQL-%23917346.svg?style=flat-square&logo=SQL&logoColor=white"/>
-<br>
 
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
-<img src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=flat-square&logo=vuedotjs&logoColor=%234FC08D"/>
-<img src="https://img.shields.io/badge/Nuxt.js-000000?style=flat-square&logo=Nuxt.js&logoColor=white"/>
-<br>
-<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=flat-square&logo=bootstrap&logoColor=white"/>
-<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
-<br>
-<img src="https://img.shields.io/badge/chart.js-F5788D.svg?style=flat-square&logo=chart.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/threejs-black?style=flat-square&logo=three.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/WebGL-990000?logo=webgl&logoColor=white&style=flat-square"/>
-<br>
+| | |
+|---|---|
+| **Languages** | <img src="https://skillicons.dev/icons?i=cpp,c,cs,py,java,js,html&perline=8" height="40"/> |
+| **Frameworks** | <img src="https://skillicons.dev/icons?i=dotnet,qt,vue,nuxtjs,django,bootstrap,threejs&perline=8" height="40"/> |
+| **Data & Build** | <img src="https://skillicons.dev/icons?i=postgres,cmake,git&perline=8" height="40"/> |
+| **More** | <img src="https://img.shields.io/badge/.NET_Aspire-512BD4?style=flat-square&logo=dotnet&logoColor=white"/> <img src="https://img.shields.io/badge/gRPC-244C5A?style=flat-square"/> <img src="https://img.shields.io/badge/Apache_Arrow-0E1D3A?style=flat-square"/> <img src="https://img.shields.io/badge/MS_SQL_Server-CC2927?style=flat-square&logo=microsoft%20sql%20server&logoColor=white"/> <img src="https://img.shields.io/badge/PL%2FSQL-917346?style=flat-square"/> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=NumPy&logoColor=white"/> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/Chart.js-F5788D?style=flat-square&logo=chart.js&logoColor=white"/> <img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white"/> <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white"/> <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white"/> |
 
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
-<img src="https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=flat-square&logo=microsoft%20sql%20server&ogoColor=white"/>
-<img src="https://img.shields.io/badge/JIRA-F05032?style=flat-square&logo=Jira&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=NumPy&logoColor=white"/>
-<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/.NET_Aspire-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
-<br>
-<img src="https://img.shields.io/badge/IEC_61850-005A9C?style=flat-square"/>
-<img src="https://img.shields.io/badge/IEC_60870-0072C6?style=flat-square"/>
-<img src="https://img.shields.io/badge/IEC_62443-D97706?style=flat-square"/>
-<img src="https://img.shields.io/badge/DNP3_(IEEE_1815)-2E7D32?style=flat-square"/>
-<br>
-<img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Apache_Arrow-0E1D3A?style=flat-square"/>
-<img src="https://img.shields.io/badge/gRPC-244C5A?style=flat-square"/>
-<img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
+<br/>
+
+<h3>⚡ Power & OT Standards</h3>
+
+<img src="https://img.shields.io/badge/IEC_61850-005A9C?style=for-the-badge"/> <img src="https://img.shields.io/badge/DNP3_·_IEEE_1815-2E7D32?style=for-the-badge"/> <img src="https://img.shields.io/badge/IEC_60870--5-0072C6?style=for-the-badge"/> <img src="https://img.shields.io/badge/IEC_62443-D97706?style=for-the-badge"/> <img src="https://img.shields.io/badge/IEC_62351-B45309?style=for-the-badge"/> <img src="https://img.shields.io/badge/IEC_61131--3-6B7280?style=for-the-badge"/>
 
 </div>
 
@@ -227,12 +201,11 @@ Factory automation infrastructure, HMI solution
 
 *project 1*
 
-## SA System <br><br>
+## Digital Substation HMI (SA System) <br><br>
 
-## overview,
+### Overview
 
-
-Digital Substation Automation Operation System is **HMI**(Human Machine Interface) system which provides operating information on each facility in the IEC 61850-based **SA** (Substation Automation) digital substation to the operator.
+Operator HMI for **IEC 61850-based digital substations**. It gives operators a real-time view of every bay and device in the substation and is the operating screen of the Substation Automation (SA) system.
 
 <br/>
 
@@ -245,13 +218,16 @@ Digital Substation Automation Operation System is **HMI**(Human Machine Interfac
 <br/><br/>
 
 
-## Technologies Used,
+### What I did
 
-Qt Framework, Qml GUI, Qt widget App,  IPC(Inter-Process Communication)
-- OOP of 2D Graphic object.
-- GUI Engineering tool & Graphic Builder.
-- IPC Shared memory control and expression.
-- Real-time processing of communication data.
+- **Graphic object model**: Designed an object-oriented model for 2D graphic objects, so screen elements are reusable components rather than drawn shapes.
+- **Engineering tool & graphic builder**: Built the GUI engineering tool that lets engineers compose operating screens without code.
+- **Shared-memory IPC**: Connected the HMI to the communication processes through shared memory, and bound live data to the screen.
+- **Real-time data**: Processed and displayed field communication data in real time.
+
+### Tech
+
+Qt (QML · Widgets), C++, Shared-memory IPC
 
 <br/><br/>
 <br/><br/>
@@ -259,12 +235,11 @@ Qt Framework, Qml GUI, Qt widget App,  IPC(Inter-Process Communication)
 
 *project 2*
 
-## SA System - Extend Web App<br><br>
+## Digital Substation HMI — Web Extension<br><br>
 
-## overview,
+### Overview
 
-
-Web extension version of the SA System.<br>
+Extended the desktop SA HMI to the web, so the same substation data and engineering functions are available in a browser.
 
 <br/>
 <br/>
@@ -286,13 +261,16 @@ Web extension version of the SA System.<br>
 <br/><br/>
 
 
-## Technologies Used,
+### What I did
 
-ASP.NET Core, .NET5, EF Core, Node.js, Vue.js, Nuxt.js, HTML5/CSS, Konva.js, Lightning Chart js
-- Build an API server to service data
-- Provide engineering UI from the front end.
-- 2D & 3D Visualization.
-- Real-time processing of communication data.
+- **API server**: Built the back-end API server that serves substation data to web clients.
+- **Web engineering UI**: Brought the engineering functions to the front end.
+- **2D & 3D visualization**: Implemented 2D diagrams and 3D views in the browser.
+- **Real-time data**: Delivered live communication data to the web in real time.
+
+### Tech
+
+ASP.NET Core (.NET 5), EF Core, Node.js, Vue.js / Nuxt.js, HTML5 / CSS, Konva.js, LightningChart JS
 
 
 <br/><br/>
@@ -302,11 +280,24 @@ ASP.NET Core, .NET5, EF Core, Node.js, Vue.js, Nuxt.js, HTML5/CSS, Konva.js, Lig
 
 ## Next-Generation SCADA Platform — Architecture & Specification <br><br>
 
-## overview,
+### Overview
 
 Design of a cross-platform (Windows · Linux) SCADA product for power substation monitoring and control, built to replace field-proven legacy systems without losing their behavior. I own the whole design phase as the sole architect: legacy analysis, product architecture, security design, test specification and milestone planning. The implementation phase starts from this specification set.
 
 <br/>
+
+### Architecture at a glance
+
+```mermaid
+flowchart LR
+  RTU["Field RTU / IED"] -->|"DNP3 · TLS · SAv5"| DRV["Protocol driver plug-ins<br/>(stable C ABI)"]
+  DRV --> ENG["C++ real-time engine<br/>generic core + domain pack"]
+  ENG <--> SHM[("Shared memory")]
+  SHM <--> BR[".NET bridge & services"]
+  BR -->|"gRPC / SignalR"| UI["Viewer · Web · Consoles"]
+  BR --> HIS[("Historian<br/>PostgreSQL + Arrow")]
+  ENG -.->|"Active / Standby"| STB["Standby server"]
+```
 
 ### What I did
 
@@ -324,7 +315,7 @@ I ran the design phase with **Claude Code** as an engineering assistant. I set t
 
 <br/>
 
-## Technologies Used,
+### Tech
 
 C++ (ACE), CMake / vcpkg, .NET 10, gRPC / SignalR, .NET Aspire, Shared Memory IPC, DNP3 / SAv5 / TLS, IEC 62443, IEC 62351, PostgreSQL, Apache Arrow, LightningChart JS, Claude Code
 
@@ -337,7 +328,7 @@ C++ (ACE), CMake / vcpkg, .NET 10, gRPC / SignalR, .NET Aspire, Shared Memory IP
 
 
 
-![footer](https://capsule-render.vercel.app/api?type=waving&&color=gradient&height=100&section=footer&fontSize=90)
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=120&section=footer)
 
 
 
