@@ -95,7 +95,7 @@ Industrial Control & Communication
 **Technical Business Division**
 **Senior Research Engineer (Technical Lead)**
 
-- **Key Projects:** LS Electric STATCOM System / Korea East-West Power (EWP) KPX Ancillary Service Settlement System
+- **Key Projects:** LS Electric STATCOM System / Korea East-West Power (EWP) KPX Ancillary Service Settlement System (GFMS — see *Project 2*)
 - **Power Domain Expertise:** Comprehensive knowledge across the power domain ecosystem, including substation centralized monitoring, RTU equipment integration, upper-level communication, and KPX settlement processes.
 - **Field-Centric SCADA HMI Development:** Led HMI development in close collaboration with field engineers, translating operational needs into practical features that received high praise from clients and branch offices.
 - **System Architecture & Integration:** Architected core analysis engines, upper-level communication (DNP3), and device data acquisition systems.
@@ -229,7 +229,7 @@ flowchart LR
 
 ### What I did
 
-- **Legacy analysis → reusable rules**: Analyzed the source code of two different legacy SCADA systems and benchmarked a commercial SCADA platform. Normalized communication procedures, control sequences and event logic into rule IDs, then into **~500 executable test vectors** (input → expected output) that serve as the normative spec.
+- **Legacy analysis → reusable rules**: Analyzed the source code of different legacy SCADA systems and benchmarked a commercial SCADA platform. Normalized communication procedures, control sequences and event logic into rule IDs, then into **~500 executable test vectors** (input → expected output) that serve as the normative spec.
 - **Product architecture**: Real-time C++ engine + shared-memory IPC + .NET service layer, with protocol drivers as plug-ins behind a stable C ABI and a driver conformance test kit. Generic engine core + domain packs, so one engine can serve multiple markets.
 - **Power communication**: DNP3 (IEEE 1815) master design — multi-session, unsolicited reporting, Secure Authentication v5, TLS — plus dual-line and Active/Standby server redundancy.
 - **Security by design**: IEC 62443-4-1 / 4-2 requirement matrix, hash-chained audit log, signed drivers, SBOM and static analysis in CI from the first milestone.
@@ -254,6 +254,8 @@ C++ (ACE), CMake / vcpkg, .NET 10, gRPC / SignalR, .NET Aspire, Shared Memory IP
 
 ## Governor Free Measurement System (GFMS) — Analysis Engine & Viewer <br><br>
 
+*LK11 · Korea East-West Power (EWP) KPX Ancillary Service Settlement System*
+
 ### Overview
 
 A measurement and analysis system that evaluates how power-plant generators respond to grid frequency (governor-free response), in the same way the Korea Power Exchange (KPX) assesses ancillary services. It collects high-resolution (100 ms), GNSS-synchronized frequency data and generator output at the plant, then calculates speed droop, AGC ramp rates and frequency-response compliance — so the plant can check its results before the official evaluation and prepare evidence.
@@ -270,9 +272,9 @@ A measurement and analysis system that evaluates how power-plant generators resp
 ### What I did
 
 - **Regulation → algorithm**: Turned the KPX evaluation rules into a precise algorithm spec: valid-interval detection (deadband, consecutive trend, threshold), per-interval speed droop, top-5% outlier removal and pass/fail judgement.
-- **Gap analysis & re-architecture**: Compared the existing evaluator with the rules, found where it diverged (e.g., sample-wise instead of interval-wise droop, wrong end time for ramp rates) and restructured the engine into modules — schema, preprocessing, detector, evaluator, AGC ramp, frequency response, judgement.
+- **Gap analysis & re-architecture**: Compared the existing evaluator with the rules, found where it diverged and restructured the engine into modules — input validation, preprocessing, interval detection, evaluation, AGC ramp, frequency response, judgement.
 - **Configurable judgement**: Judgement criteria are selectable by mode, and every rule interpretation that needs confirmation lives in configuration, never in code.
-- **KPX-equivalent data path**: Resampled 100 ms raw data to the 2 s grid KPX uses, while keeping a high-resolution mode for governor step-test analysis.
+- **KPX-equivalent data path**: Resampled 100 ms raw data to the resolution KPX uses, while keeping a high-resolution mode for governor step-test analysis.
 - **Traceability**: Every result records engine version, config hash, input range and resampling mode; plant DCS and EMS-RTU values are cross-checked; test cases are built from the rule documents' worked examples.
 - **Analysis viewer**: Multi-unit comparison, frequency/output overlay with detected-event markers, and export to Excel (evidence for KPX), PDF summary and raw CSV.
 
